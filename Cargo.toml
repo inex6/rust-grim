@@ -1,0 +1,11 @@
+[package]
+name = "rust-grim"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+image = "0.25.1"
+wayland-client = "0.31.1"
+wayland-protocols = "0.31.1"
+wayland-protocols-wlr = { version = "0.2.0", features = ["client"] }
